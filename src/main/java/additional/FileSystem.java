@@ -1,6 +1,5 @@
 package additional;
 
-import org.jetbrains.annotations.Nullable;
 
 import java.io.*;
 
@@ -45,7 +44,7 @@ public class FileSystem {
         return file.length();
     }
 
-    @Nullable
+
     public String getContentType(){
         String path = file.getAbsolutePath();
         int index = path.lastIndexOf('.');

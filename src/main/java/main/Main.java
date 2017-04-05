@@ -14,8 +14,8 @@ import java.util.concurrent.ForkJoinPool;
 
 public class Main {
 
-    private static int PORT = 8080;
-    private static final int QUEUE = 100;
+    private static int PORT = 80;
+    private static final int QUEUE = 5;
     private static int POOL_SIZE = 4;
 
     public static void main(String[] args) throws IOException{
